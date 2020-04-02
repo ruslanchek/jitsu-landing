@@ -1,0 +1,21 @@
+.Header {
+  background: #fff;
+  height: 60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.Inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.Logo {
+  width: 108px;
+  height: 31px;
+  transform: translateY(1px);
+}
