@@ -1,7 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: var(--font-regular);
   margin: 0;
-  color: #383a4d;
+  color: var(--color-night-sky);
   background-color: #fafbfd;
+  font-size: var(--font-size-regular);
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: var(--font-title);
+  font-size: var(--font-size-giantic);
+  font-weight: 400;
+  line-height: 1.15;
+  margin: 0;
+  color: var(--color-night-sky);
+}
+
+h3 {
+  font-size: var(--font-size-regular);
+  color: var(--color-night-sky);
+  margin: 0;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+p {
+  margin: .75em 0 0 0;
+}
+
+:root {
+  --color-night-sky: #001738;
+  --color-accent: #00bf9c;
+  --color-accent-active: #04b19d;
+  --color-high-smoke: #596579;
+  --font-regular: 'Quicksand', sans-serif;
+  --font-title: 'Quicksand', sans-serif;
+  --font-size-giantic: 50px;
+  --font-size-large: 24px;
+  --font-size-medium: 18px;
+  --font-size-regular: 16px;
 }

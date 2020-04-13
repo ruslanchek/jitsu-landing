@@ -1,10 +1,12 @@
 .Header {
   background: #fff;
   height: 60px;
+  font-weight: 600;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
   position: sticky;
   top: 0;
   left: 0;
+  font-family: var(--font-title);
 }
 
 .Inner {
@@ -17,5 +19,36 @@
 .Logo {
   width: 108px;
   height: 31px;
-  transform: translateY(1px);
+}
+
+.Nav {
+  flex-grow: 1;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.Actions {
+  display: flex;
+  align-items: center;
+}
+
+.Link {
+  color: var(--color-high-smoke);
+  text-decoration: none;
+  transition: color .15s;
+  margin: 0 14px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+
+  &:hover {
+    color: var(--color-accent);
+  }
+}
+
+.Globe {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
 }
